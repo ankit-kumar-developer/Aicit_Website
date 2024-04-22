@@ -943,7 +943,43 @@
 /* mobile view => max-width(425px) */
 
 @media (max-width: 425px) {
-    .navbar {
-        display: none;
+
+    .nav-list {
+        width: 50%;
+        display: flex;
+        align-items: center;
     }
+
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+        font-size: 21px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .nav-list li a:hover {
+        color: #f1c40f;
+    }
+
+    .rightNav {
+        width: 0%;
+        text-align: right;
+        margin-left: 100px;
+    }
+
+    .search {
+        padding: 5px;
+        font-size: 111px;
+        padding-left: 20px;
+        border: 2px solid grey;
+        border-radius: 9px;
+    }
+
+
+
 }
